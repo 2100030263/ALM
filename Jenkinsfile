@@ -12,8 +12,8 @@ pipeline {
         stage('Run') {
             steps {
                 // Run your Java application
-                sh 'javac Karthik.java' // Replace with your actual Java file name
-                sh 'java Nothing'
+                bat 'javac Karthik.java' // Replace with your actual Java file name
+                bat 'java Nothing'
             }
         }
     }
