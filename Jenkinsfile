@@ -14,6 +14,9 @@ pipeline {
                 // Run your Java application
                 bat 'javac Karthik.java' // Replace with your actual Java file name
                 bat 'java Karthik'
+
+                bat 'python Karthik.py' // Replace with your actual Java file name
+            
             }
         }
     }
